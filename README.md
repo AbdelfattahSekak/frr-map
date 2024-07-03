@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FRR Map
+
+## Introduction
+
+The FRR Map project is an open-source initiative designed to support the revitalization of rural France. It leverages modern web technologies to provide an interactive map showcasing regions of France that are undergoing efforts to rejuvenate their local economies, infrastructure, and community services. This project aims to highlight the challenges and opportunities present in these areas, encouraging entrepreneurship, sustainable development, and community engagement.
+
+## Goal
+
+The primary goal of the FRR Map project is to create a user-friendly, informative platform that visualizes the various initiatives and developments aimed at revitalizing rural France. By making this information easily accessible, the project seeks to foster awareness, promote local tourism, support rural businesses, and encourage investment in these regions.
+
+## Features
+
+- **Interactive Map:** Utilizes Leaflet.js to provide a dynamic, interactive map of France, highlighting rural areas with ongoing revitalization efforts.
+- **Region Details:** Offers detailed information on each region, including economic development initiatives, infrastructure improvements, and cultural events.
+- **Responsive Design:** Ensures a seamless user experience across various devices and screen sizes, thanks to Tailwind CSS.
+- **Accessibility:** Implements best practices to ensure the platform is accessible to as wide an audience as possible.
+
+## Technologies Used
+
+- **Next.js:** A React framework that enables server-side rendering and generates static websites for faster load times.
+- **React:** A JavaScript library for building user interfaces, facilitating the development of the interactive map and UI components.
+- **Leaflet:** An open-source JavaScript library for mobile-friendly interactive maps.
+- **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the FRR Map project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-repository/frr-map.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Start the development server:
 
-## Learn More
+```sh
+pnpm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will launch the project locally on `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For more information on the revitalization efforts and initiatives in rural France, visit [Service Public Entreprendre](https://entreprendre.service-public.fr/actualites/A17460).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions to the FRR Map project are welcome! Whether it's submitting bug reports, feature requests, or contributing code, all forms of assistance help in making this project more effective in supporting rural revitalization efforts.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Please refer to the CONTRIBUTING.md file for more details on how to contribute.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
