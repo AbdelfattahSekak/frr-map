@@ -18,6 +18,7 @@ effect(() => {
   if (mapRef.value) {
     console.log(selectedDepartment.value);
     mapRef.value.flyTo({
+      // @ts-ignore
       center: selectedDepartment.value.center,
       zoom: selectedDepartment.value.zoom,
     });

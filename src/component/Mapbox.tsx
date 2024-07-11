@@ -59,6 +59,7 @@ const Mapbox = () => {
         new mapboxgl.Popup()
           .setLngLat(e.lngLat)
           .setHTML(
+            // @ts-ignore
             `${e.features[0].properties.nom} (${e.features[0].properties.code})`
           )
           .addTo(map!);
